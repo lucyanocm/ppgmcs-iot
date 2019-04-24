@@ -18,22 +18,30 @@ em residências, sendo os objetivos específicos:
 * Analisar  a  viabilidade  econômica  do  protótipo
 
 ## Materiais utilizados no projeto
-  * Arduíno UNO
+  - Arduíno UNO
   
   ![Arduíno UNO](https://github.com/lucyanocm/ppgmcs-iot/blob/master/img/arduinouno.jpg)
   
-  * Sensor de abertura MC-38A
+  - Sensor de abertura MC-38A
   
-  ![Arduíno UNO](https://github.com/lucyanocm/ppgmcs-iot/blob/master/img/mc38a.jpg)
+  ![Sensor de abertura MC-38A](https://github.com/lucyanocm/ppgmcs-iot/blob/master/img/mc38a.jpg)
+
+  - Sensor de movimento HC-SR501
   
-  * Shield GSM SIM800L
+  ![Sensor de movimento HC-SR501](https://github.com/lucyanocm/ppgmcs-iot/blob/master/img/sensor_movimento.jpg)
   
-  ![Arduíno UNO](https://github.com/lucyanocm/ppgmcs-iot/blob/master/img/sim800l.jpg)
+  - Shield GSM SIM800L
   
-   * Regulador de tensão LM2596
+  ![Shield GSM SIM800L](https://github.com/lucyanocm/ppgmcs-iot/blob/master/img/sim800l.jpg)
   
-  ![Arduíno UNO](https://github.com/lucyanocm/ppgmcs-iot/blob/master/img/regulador.jpg)
+  - Regulador de tensão LM2596
   
-   * Sensor de movimento HC-SR501
+  ![Regulador de tensão LM2596](https://github.com/lucyanocm/ppgmcs-iot/blob/master/img/regulador.jpg)
   
-  ![Arduíno UNO](https://github.com/lucyanocm/ppgmcs-iot/blob/master/img/sensor_movimento.jpg)
+  ## Funcionamento do Algoritmo
+  
+  A codificação foi feita utilizando a IDE [Arduíno](https://www.arduino.cc/), o arquivo com o código fonte está disponível nesse repositório: [project_ppgmcs_iot.ino](src/project_ppgmcs_iot.ino)
+  
+  ### Fluxograma do Sistema
+  
+  ![Fluxograma](https://github.com/lucyanocm/ppgmcs-iot/blob/master/img/fluxograma.jpeg)
