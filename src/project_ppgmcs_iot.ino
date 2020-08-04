@@ -1,7 +1,7 @@
 #include <SoftwareSerial.h>
 
 //Phone number brazilian format DDD+PHONENUMBER, example: 063999999999
-String phoneNumber = "063992380577";
+String phoneNumber = "063999999999";
 
 int greenLed = 2;
 int blueLed = 3;
